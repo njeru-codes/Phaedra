@@ -1,13 +1,13 @@
 # PHAEDRA
-This project provides a MITM ARP spoofing tool designed for capturing DNS traffic within a local network.
+This project provides a MITM ARP spoofing tool designed for capturing DNS traffic within a local network. <br/>
 ⚠️ Disclaimer: This tool is intended for educational and ethical use only. Unauthorized use on networks without explicit permission may violate legal and ethical standards.
 ```
-  _____  _                    _                  _____ _          _ _ 
- |  __ \| |                  | |                / ____| |        | | |
- | |__) | |__   __ _  ___  __| |_ __ __ _ _____| (___ | |__   ___| | |
- |  ___/| '_ \ / _` |/ _ \/ _` | '__/ _` |______\___ \| '_ \ / _ \ | |
- | |    | | | | (_| |  __/ (_| | | | (_| |      ____) | | | |  __/ | |
- |_|    |_| |_|\__,_|\___|\__,_|_|  \__,_|     |_____/|_| |_|\___|_|_|
+                                      _____  _                    _                
+                                      |  __ \| |                  | |              
+                                      | |__) | |__   __ _  ___  __| |_ __ __ _ 
+                                      |  ___/| '_ \ / _` |/ _ \/ _` | '__/ _` |
+                                      | |    | | | | (_| |  __/ (_| | | | (_| | 
+                                      |_|    |_| |_|\__,_|\___|\__,_|_|  \__,_|  
                                                                       
 ```  
 
@@ -20,11 +20,9 @@ clone the repo and run install.sh
     cd Phaedra
     chmod +x install
     sudo ./install
+    sudo pheedra-sniffer   #runs the script
 ```
-to run the script
-```bash
-    sudo pheedra-sniffer 
-```
+
 smaple usage
 ``` bash
 sudo $(which python3) sniffer.py --network 192.168.100.0/24 --iface eth0 --router_ip 192.168.100.1
