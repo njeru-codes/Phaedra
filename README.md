@@ -1,6 +1,7 @@
 # PHAEDRA
 This project provides a MITM ARP spoofing tool designed for capturing DNS traffic within a local network. <br/>
-⚠️ Disclaimer: This tool is intended for educational and ethical use only. Unauthorized use on networks without explicit permission may violate legal and ethical standards.
+⚠️ Disclaimer:  <br/>
+This tool is intended for educational and ethical use only. Unauthorized use on networks without explicit permission may violate legal and ethical standards.
 ```
                               _____  _                    _                
                               |  __ \| |                  | |              
